@@ -1,0 +1,94 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  min-width: 100%;
+  min-height: 110vh;
+  background-color: #d7d7d7;
+  background-image: url(../assets/Portfolio-2/Rectangle-67.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 62% 100%;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  color: white;
+  gap: 5rem;
+  padding-right: 0.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+
+.hero-text {
+  padding-right: 1rem;
+  width: 50%;
+  margin-top: -15rem;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  padding: 0rem 0 2rem 0;
+}
+
+h2 {
+  padding: 0.5rem 0;
+}
+
+.hero-img {
+  width: 60%;
+}
+
+.it-section {
+  min-height: 40vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 27%;
+  background-image: url(../assets/Logo-IT.png);
+  background-repeat: no-repeat;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.it-section h3 {
+  font-size: 1.5rem;
+  padding: 3rem 0 2rem 3rem;
+}
+
+.it-section p {
+  font-size: 1rem;
+  padding: 0 30rem 2rem 3rem;
+}
+
+.it-section p {
+  font-size: 1rem;
+  padding: 0 30rem 2rem 3rem;
+}
