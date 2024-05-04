@@ -134,6 +134,15 @@ h2 {
   letter-spacing: 0.6rem;
 }
 
+.about-me .about-me-p {
+  font-size: 1rem;
+  color: black;
+  padding: 0.8rem 19.8rem;
+  font-weight: 700;
+  margin: 4.5rem 0;
+  font-weight: 400;
+}
+
 .about-me p {
   font-size: 1rem;
   color: black;
@@ -318,6 +327,117 @@ section .img-2 {
 }
 
 .portfolio-2 img {
-  height: 25%;
-  width: 32%;
+  height: 300px;
+  min-width: 33%;
+  margin-top: 0;
+  flex-grow: 1;
+  margin: 0;
+  object-fit: cover;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+
+.contact-form {
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  background-color: transparent;
+  font-family: "montserrat", san-serif;
+  font-weight: 600;
+  border-left: 3px solid black;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  height: 30vh;
+  background-color: transparent;
+  font-family: "montserrat", san-serif;
+  font-weight: 600;
+  border-left: 3px solid black;
+}
+
+.contact-me {
+  min-width: 100%;
+  min-height: 110vh;
+  background-color: #d7d7d7;
+  align-self: center;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.contact-me h2 {
+  font-size: 1.5rem;
+  color: black;
+  border: 5px solid black;
+  display: inline;
+  padding: 1rem 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+
+.contact-me .about-me-p {
+  font-size: 1rem;
+  color: black;
+  padding: 0.8rem 19.8rem;
+  font-weight: 700;
+  margin: 4.5rem 0 0 0;
+  font-weight: 400;
+}
+
+.contact-me p {
+  font-size: 1rem;
+  color: black;
+  padding: 0.8rem 2.8rem;
+  font-weight: 700;
+  margin: 4.5rem 0;
+  font-weight: 400;
+}
+
+.contact-me a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  width: 10px;
+  height: 30px;
+  padding: 0.4rem 1.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+footer {
+  height: 30vh;
+  width: 100vw;
+  background-color: #1d1d1d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+@media (min-width: 320px) (max-width: 480px) {
 }
