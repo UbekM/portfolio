@@ -438,6 +438,3 @@ footer {
   flex-direction: column;
   padding: 2rem 0;
 }
-
-@media (min-width: 320px) (max-width: 480px) {
-}
