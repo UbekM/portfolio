@@ -76,6 +76,29 @@ h2 {
   width: 60%;
 }
 
+.socials {
+  display: flex;
+  gap: 2rem;
+  margin-top: 15rem;
+  align-items: center;
+  height: 5rem;
+}
+
+.social {
+  background-color: #909090;
+  width: 15%;
+  height: 60%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 5px 3px #555555;
+}
+
+.social img {
+  width: 47%;
+  height: auto;
+}
+
 .it-section {
   min-height: 45vh;
   width: 100vw;
@@ -437,4 +460,22 @@ footer {
   justify-content: center;
   flex-direction: column;
   padding: 2rem 0;
+}
+
+.social-2 {
+  width: 15%;
+  height: 60%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-2 img {
+  width: 10%;
+  height: auto;
+}
+
+footer .top {
+  margin: 10rem;
 }
