@@ -17,7 +17,7 @@ main {
   min-width: 100%;
   min-height: 110vh;
   background-color: #d7d7d7;
-  background-image: url(./assets/Portfolio-2/Rectangle-67.png);
+  background-image: url(../assets/Portfolio-2/Rectangle-67.png);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 60% 100%;
@@ -105,7 +105,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 32%;
-  background-image: url(./assets/Logo-IT.png);
+  background-image: url(../assets/Logo-IT.png);
   background-repeat: no-repeat;
   background-color: #1d1d1d;
   color: white;
@@ -288,7 +288,7 @@ section .img-2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(./assets/PORTFOLIO.png);
+  background-image: url(../assets/PORTFOLIO.png);
   background-repeat: no-repeat;
   background-color: #1d1d1d;
   color: white;
