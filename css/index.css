@@ -479,3 +479,7 @@ footer {
 footer .top {
   margin: 10rem;
 }
+
+/* mobile view */
+@media (min-width: 320px) and (max-width: 480px) {
+}
